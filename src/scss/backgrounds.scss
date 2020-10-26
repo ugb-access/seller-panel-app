@@ -1,20 +1,24 @@
 $primary-color : #50a5f1;
 $secondary-color : #f9f9f9;
+$dark-secondary: #f3f3f9;
 $white-color : #fff;
-
+$transparent : transparent;
 
 .bg-primary {
     background-color: $primary-color;
 }
-
 .bg-secondary {
     background-color: $secondary-color;
 }
 .bg-white {
     background-color: $white-color;
 } 
+.bg-dark-secondary {
+    background-color: $dark-secondary;
+}
 
-
-
+.bg-transparent {
+    background-color: $transparent;
+}
 
 

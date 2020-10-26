@@ -3,6 +3,8 @@ import Layout from './Layouts/index';
 import Dashboard from './pages/Dashboard';
 import './scss/global.scss';
 import './scss/backgrounds.scss';
+import './scss/utils/flex.scss';
+import './scss/utils/sizing.scss';
 
 
 class Application extends Component {
