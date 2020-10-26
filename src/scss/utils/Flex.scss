@@ -14,9 +14,17 @@
 .justify-around {
     justify-content: space-around;
 }
-
 .align-items-center {
     align-items: center;
+}
+.align-items-start {
+    align-items: flex-start;
+}
+.align-items-end {
+    align-items: flex-end;
+}
+.align-items-baseline {
+    align-items: baseline;
 }
 .flex-column {
     flex-direction: column;
