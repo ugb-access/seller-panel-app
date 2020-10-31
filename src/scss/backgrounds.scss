@@ -1,24 +1,22 @@
-$primary-color : #50a5f1;
-$secondary-color : #f9f9f9;
-$dark-secondary: #f3f3f9;
-$white-color : #fff;
-$transparent : transparent;
+@import "./utils/variables.scss";
 
 .bg-primary {
-    background-color: $primary-color;
+    background-color: $primary-color !important;
 }
 .bg-secondary {
-    background-color: $secondary-color;
+    background-color: $secondary-color !important;
 }
 .bg-white {
-    background-color: $white-color;
+    background-color: $white-color !important;
 } 
 .bg-dark-secondary {
-    background-color: $dark-secondary;
+    background-color: $dark-secondary !important;
 }
 
 .bg-transparent {
-    background-color: $transparent;
+    background-color: $transparent !important;
 }
-
+.bg-orange {
+    background-color: $orange-color !important;
+}
 

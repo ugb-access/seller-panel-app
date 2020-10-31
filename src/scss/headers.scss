@@ -2,16 +2,74 @@
     max-height: 66px;
     height: 66px;
     max-width: 100%;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 
     .header-inner-wrapper {
+       
         .header-logo-wrapper {
-           max-height: 50px;
-           height: 50px;
-           svg {
-               display: block;
-               max-width: 100%;
-               height: inherit;
-           }
+            max-height: 50px;
+            height: 50px;
+            svg {
+                display: block;
+                max-width: 100%;
+                height: inherit;
+            }
         }
+        .header-right-container {
+            display: flex;
+            align-items: center;
+            .header-search-container {
+                height: 30px;
+                .header-search-innerr-wrapper {
+                    height: inherit;
+                    .search-button-header {
+                        cursor: pointer;
+                        span {
+                            height: 100%;
+                            svg {
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            
+            .primary-notification-icon-container {
+            	position: relative;
+               .notification-qty-container {
+                    position: absolute;
+                    top: -13px;
+                    right: -10px;
+                    width: 17.7px;
+					height: 14.5px;
+					font-size: 11px;
+               }
+			}
+			
+			.user-showcase-information {
+				
+				.mini-profile-pic-container {
+					display: block;
+					width: 34px;
+					height: 34px;
+					img {
+						display: block;
+						width: 100%;
+					}
+				}
+
+				.user-showcase-name {
+					text-transform: capitalize;
+				}
+			}
+			
+        }
+
     }
 }

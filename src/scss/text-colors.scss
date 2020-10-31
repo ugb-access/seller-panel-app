@@ -1,0 +1,17 @@
+@import "./utils/variables.scss";
+
+.text-white {
+    color: $white-color;
+}
+
+.text-black {
+    color: $black-color;
+}
+
+.text-secondary {
+    color: $text-secondary;
+}
+
+.placeholder-text-color {
+    color: $placeholder-text;
+}

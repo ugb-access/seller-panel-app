@@ -1,0 +1,30 @@
+@import './utils/variables.scss';
+
+.primary-card-container {
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1.25rem;
+    .card-header {
+        margin-bottom: 10px;
+        .card-main-heading { 
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.56;
+            text-align: left;
+            color: #000;
+            margin-bottom: 6px;
+            text-transform: capitalize;
+        }
+    }
+}
+
+
+
+.photo-guide-card-container {
+    .photo-guide-card-inner-wrapper {
+        width: calc((100% / 4) - 25px);
+        
+    }
+}
+

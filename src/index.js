@@ -1,15 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
-import Application from './Application';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Application />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const jQuery = require('jquery')
+window.jQuery = jQuery;
+
+require('./Application')
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

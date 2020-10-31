@@ -1,3 +1,5 @@
+@import './utils/variables.scss';
+
 *, :after, :before {
     box-sizing: border-box;
 }
@@ -27,7 +29,8 @@
 }
 
 html {
-    line-height: 1.7;
+	line-height: 1;
+	font-size: 16px;
 }
 
 body {
@@ -36,7 +39,7 @@ body {
     font-weight: normal;
 	font-style: normal;
     margin: 0;
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
  h1, .h1 {
 	font-size: 2.5rem;
@@ -70,6 +73,19 @@ body {
 	margin-top: 0;
 	margin-bottom: 1rem;
   }
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
   
   
   
@@ -97,4 +113,50 @@ input {
     width: 100%;
 }
 
+small {
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: normal;
+}
+
+.go-back-container {
+	font-size: 12px;
+	font-weight: 500;
+	color: #9A9A9A;
+	display: flex;
+	align-items: center;
+
+	.go-back-icon {
+		
+	}
+	.go-back-title-container {
+		text-transform: capitalize;
+	}
+}
+
+
+.card-content {
+	font-size: 13px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.54;
+	letter-spacing: normal;
+	text-align: left;
+	color: $black-color;
+	margin-bottom: 10px;
+}
+
+
+.paragraph-bold {
+	font-weight: 500;
+	color: $black-color;
+}
+
+
+.link {
+	font-weight: 500 !important;
+	color: $primary-color !important;
+	cursor: pointer;  
+}
 

@@ -1,0 +1,16 @@
+.primary-sidebar-container {
+    padding-top: 46px;
+    width: 233px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 66px;
+    background-color: #fff;
+    li {
+        text-transform: capitalize;
+    }
+
+    .sidebar-links-content-container {
+        cursor: pointer;
+    }
+}

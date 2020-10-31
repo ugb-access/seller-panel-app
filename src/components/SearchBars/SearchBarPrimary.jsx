@@ -5,7 +5,7 @@ import { SearchButton } from '../Buttons';
 class SearchBarPrimary extends Component {
     render() {
         return(
-            <div className="header-search-container border-rounded-pill bg-dark-secondary ">
+            <div className="header-search-container border-rounded-pill bg-dark-secondary w-100">
                 <div className="header-search-innerr-wrapper d-flex">
                     <SearchButton />
                     <div className="header-search-input-container">
