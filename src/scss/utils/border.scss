@@ -33,7 +33,7 @@
 }
 
 .border-0 {
-    border: 0;
+    border: 0 !important;
 }
 
 .border-top-0 {
@@ -56,3 +56,10 @@
     outline: 0;
 }
 
+
+.border-bottom-primary {
+    &.active {
+        border-bottom: solid 2px #50a5f1;
+    }
+    
+}

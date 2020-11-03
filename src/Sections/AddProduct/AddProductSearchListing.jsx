@@ -1,7 +1,7 @@
 import React from 'react';
-import { PrimaryCard } from '../components/Cards';
-import { CustomCheckboxField, PrimaryTextInputField, TextareaInputField } from '../components/InputFields';
-import HorizontalLine from '../components/HorizontalLine';
+import { PrimaryCard } from '../../components/Cards';
+import { CustomCheckboxField, PrimaryTextInputField, TextareaInputField } from '../../components/InputFields';
+import HorizontalLine from '../../components/HorizontalLine';
 
 export default function AddProductSearchListing() {
     return(

@@ -259,3 +259,46 @@
     }
     
 }
+
+
+.search-with-filters {
+	flex: 1;
+    border-radius: 4px;
+	border: solid 1.2px #000;
+	
+	// overflow: hidden;
+	.search-button-header {
+		padding-top: 0;
+		padding-bottom: 0;
+		span {
+			width: 20px;
+		}
+	}
+	input {
+		border: 0;
+		background-color: transparent;
+		&:focus {
+			outline: 0;
+			box-shadow: none;
+
+		}
+	}
+
+	.input-group-append {
+		position: relative;
+		.btn {
+			border-radius: 0;
+			border-left: 1px solid #000;
+		}
+		.dropdown-menu {
+			min-width: auto;
+		}
+
+	}
+}
+
+.filter-button {
+	position: relative;
+	border: solid 1.2px #000;
+	border-radius: 4px;
+}

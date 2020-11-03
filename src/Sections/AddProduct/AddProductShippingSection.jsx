@@ -1,7 +1,7 @@
 import React from 'react';
-import { PrimaryCard } from '../components/Cards';
-import HorizontalLine from '../components/HorizontalLine';
-import { CustomCheckboxField, CustomSelectInput, SecondaryInputField, SecondaryTextInputField } from '../components/InputFields';
+import { PrimaryCard } from '../../components/Cards';
+import HorizontalLine from '../../components/HorizontalLine';
+import { CustomCheckboxField, CustomSelectInput, SecondaryInputField, SecondaryTextInputField } from '../../components/InputFields';
 
 export default function AddProductShippingSection(props) {
     return(

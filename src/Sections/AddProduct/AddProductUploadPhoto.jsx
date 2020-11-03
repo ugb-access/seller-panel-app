@@ -1,5 +1,5 @@
 import React from 'react';
-import { PhotoGuideCard } from '../components/Cards';
+import { PhotoGuideCard } from '../../components/Cards';
 
 export default function AddProductUploadPhoto() {
     return(

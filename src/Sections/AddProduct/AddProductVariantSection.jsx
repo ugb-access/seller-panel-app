@@ -1,9 +1,9 @@
 import React from 'react';
-import { PrimaryCard } from '../components/Cards';
-import HorizontalLine from '../components/HorizontalLine';
-import { CustomCheckboxField } from '../components/InputFields';
-import OptionInputField from '../components/InputFields/OptionInputField';
-import {PrimaryButton} from '../components/Buttons';
+import { PrimaryCard } from '../../components/Cards';
+import HorizontalLine from '../../components/HorizontalLine';
+import { CustomCheckboxField } from '../../components/InputFields';
+import OptionInputField from '../../components/InputFields/OptionInputField';
+import {PrimaryButton} from '../../components/Buttons';
 
 export default function AddProductVariantSection() {
     return(

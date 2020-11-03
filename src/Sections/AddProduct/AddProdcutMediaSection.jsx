@@ -1,5 +1,5 @@
 import React from 'react';
-import { PrimaryCard } from '../components/Cards'
+import { PrimaryCard } from '../../components/Cards'
 import AddProductUploadPhoto from './AddProductUploadPhoto';
 
 export default function AddProductMediaSection() {

@@ -1,7 +1,7 @@
 import React from 'react';
-import { PrimaryCard } from '../components/Cards';
-import HorizontalLine from '../components/HorizontalLine';
-import { CustomCheckboxField, SecondaryInputField, SmallSizeInputField } from '../components/InputFields';
+import { PrimaryCard } from '../../components/Cards';
+import HorizontalLine from '../../components/HorizontalLine';
+import { CustomCheckboxField, SecondaryInputField, SmallSizeInputField } from '../../components/InputFields';
 
 export default function AddProductPricing() {
     return(

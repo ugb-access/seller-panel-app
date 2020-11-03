@@ -1,0 +1,29 @@
+@import './utils/variables.scss';
+
+
+
+.handle-quantity-component-container {
+    border: 1px solid $primary-color;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0 5px;
+    .handle-quantity-number {
+        min-width: 40px;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $primary-color;
+    }
+    .btn {
+        border-radius: 0 !important;
+    }
+
+
+}
+
+.products-inventory-list-section {
+    td, th {
+        text-align: center;
+    }
+}

@@ -5,6 +5,8 @@ import AddProductInventoryrSection from './AddProductInventorySection';
 import AddProductShippingSection from './AddProductShippingSection';
 import AddProductVariantSection from './AddProductVariantSection';
 import AddProductSearchListing from './AddProductSearchListing';
+import AddProductAvailabilitySection from './AddProductAvailabilitySection';
+import AddProductOrganizationSection from './AddProductOrganizationSection';
 
 export {
     AddProductMediaSection,
@@ -13,5 +15,7 @@ export {
     AddProductInventoryrSection,
     AddProductShippingSection,
     AddProductVariantSection,
-    AddProductSearchListing
+    AddProductSearchListing,
+    AddProductAvailabilitySection,
+    AddProductOrganizationSection
 }

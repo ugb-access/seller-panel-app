@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as CarrotDownIcon } from '../../images/icons/carrot-down.svg';
+import { ReactComponent as CarrotDownIconBlue } from '../../images/icons/carrot-down-blue.svg';
 import '../../scss/cards.scss';
 
 
@@ -15,9 +15,15 @@ export default function PrimaryCard(props) {
                         props.headerType === "dowpdown" ? (
                             <div className="link card-main-heading d-flex align-items-center">
                                 Add media from URL 
-                                <CarrotDownIcon />
+                                <CarrotDownIconBlue />
+                            </div>
+                        ) : props.headerType === "btn" ? (
+                            <div className="btn btn-primary btn-sm align-self-center bg-primary border-0">
+                                {props.btnText}
+                                
                             </div>
                         ) : null
+                        
                         
                     ) : null
                 }

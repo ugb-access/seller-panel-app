@@ -1,0 +1,13 @@
+<svg id="Group_299" data-name="Group 299" xmlns="http://www.w3.org/2000/svg" width="27.321" height="27.321" viewBox="0 0 27.321 27.321">
+  <g id="calendar_1_" data-name="calendar (1)" transform="translate(0 0)">
+    <path id="Path_248" data-name="Path 248" d="M23.8,2.134H21.345V.854a.854.854,0,0,0-1.708,0V2.134H7.684V.854a.854.854,0,1,0-1.708,0V2.134H3.522A3.526,3.526,0,0,0,0,5.656V23.8a3.526,3.526,0,0,0,3.522,3.522H23.8A3.526,3.526,0,0,0,27.321,23.8V5.656A3.526,3.526,0,0,0,23.8,2.134ZM25.614,23.8A1.814,1.814,0,0,1,23.8,25.614H3.522A1.814,1.814,0,0,1,1.708,23.8V9.659a.267.267,0,0,1,.267-.267H25.347a.267.267,0,0,1,.267.267Z"/>
+  </g>
+  <g id="Group_298" data-name="Group 298" transform="translate(6.313 13.233)">
+    <rect id="Rectangle_110" data-name="Rectangle 110" width="3.134" height="3.134" rx="0.2" transform="translate(0 0)"/>
+    <rect id="Rectangle_115" data-name="Rectangle 115" width="3.134" height="3.134" rx="0.2" transform="translate(0 7.314)"/>
+    <rect id="Rectangle_111" data-name="Rectangle 111" width="3.134" height="3.134" rx="0.2" transform="translate(6.269 0)"/>
+    <rect id="Rectangle_114" data-name="Rectangle 114" width="3.134" height="3.134" rx="0.2" transform="translate(6.269 7.314)"/>
+    <rect id="Rectangle_112" data-name="Rectangle 112" width="3.134" height="3.134" rx="0.2" transform="translate(13.583 0)"/>
+    <rect id="Rectangle_113" data-name="Rectangle 113" width="3.134" height="3.134" rx="0.2" transform="translate(13.583 7.314)"/>
+  </g>
+</svg>
